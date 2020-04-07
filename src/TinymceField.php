@@ -1,6 +1,6 @@
 <?php
 
-namespace Yassine\TinymceField;
+namespace Ykessal\TinymceField;
 
 use Laravel\Nova\Fields\Field;
 
