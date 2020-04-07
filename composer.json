@@ -1,5 +1,5 @@
 {
-    "name": "ykessal/tinymce-field",
+    "name": "ykessal/tinymce-nova-field",
     "description": "A tinymce field with laravel file manager for Laravel Nova field.",
     "keywords": [
         "laravel",
@@ -11,19 +11,19 @@
     },
     "autoload": {
         "psr-4": {
-            "Ykessal\\TinymceField\\": "src/"
+            "Ykessal\\TinymceNovaField\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ykessal\\TinymceField\\FieldServiceProvider"
+                "Ykessal\\TinymceNovaField\\FieldServiceProvider"
             ]
         }
     },
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
