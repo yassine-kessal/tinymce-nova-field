@@ -1,6 +1,6 @@
 <?php
 
-namespace Ykessal\TinymceField;
+namespace Ykessal\TinymceNovaField;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
