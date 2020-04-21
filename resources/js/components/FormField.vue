@@ -95,9 +95,10 @@
                             }
                         });
 
-                        editor.ui.registry.addContextForm('formatTitle3', {
+                        editor.ui.registry.addToggleButton('formatTitle3', {
                             icon: 'unselected',
                             tooltip: 'Texte formaté pour les titre 3',
+                            active: editor.dom.hasClass(editor.selection.getNode(), 'for-title'),
                             onAction: function (_) {
                                 editor.formatter.toggle('forH3')
                             }
