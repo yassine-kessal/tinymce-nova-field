@@ -98,7 +98,9 @@
                         editor.ui.registry.addToggleButton('formatTitle3', {
                             icon: 'unselected',
                             tooltip: 'Texte formaté pour les titre 3',
-                            active: editor.formatter.has('forH3'),
+                            active: function() {
+                                return editor.formatter.has('forH3')
+                            },
                             onAction: function (_) {
                                 editor.formatter.toggle('forH3')
                             }
