@@ -92,6 +92,9 @@
                             }
                         });
                     },
+                    style_formats: [
+                        { title: 'Titre 2', block: 'h2', classes: 'heading' },
+                    ],
                     toolbar:
                         'undo redo | formatselect | bold italic backcolor | image | \
                         alignleft aligncenter alignright alignjustify | \
