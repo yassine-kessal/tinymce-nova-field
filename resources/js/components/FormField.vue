@@ -96,8 +96,8 @@
                             icon: 'unselected',
                             tooltip: 'Texte formaté pour les titre 3',
                             onAction: function (_) {
-                                var content = tinyMCE.activeEditor.selection.getContent();
-                                tinyMCE.activeEditor.selection.setContent('<p class="for-title">'+content+'</p>');
+                                var content = editor.selection.getContent();
+                                editor.selection.setContent('<p class="for-title">'+content+'</p>');
                             }
                         });
                     },
