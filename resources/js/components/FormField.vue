@@ -91,14 +91,19 @@
                                 callback(items);
                             }
                         });
+
+                        editor.ui.registry.addButton('formatTitle3', {
+                            icon: 'unselected',
+                            tooltip: 'Texte formaté pour les titre 3',
+                            onAction: function (_) {
+                                editor.insertContent('<p class="for-title">Texte</p>');
+                            }
+                        });
                     },
-                    style_formats: [
-                        { title: 'Titre 2', block: 'h2', classes: 'heading' },
-                    ],
                     toolbar:
                         'undo redo | formatselect | bold italic backcolor | image | \
                         alignleft aligncenter alignright alignjustify | \
-                        bullist numlist outdent indent | ctabutton removeformat | help',
+                        bullist numlist outdent indent | ctabutton formatTitle3 removeformat | help',
                 }
             }
         },
