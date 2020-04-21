@@ -95,7 +95,7 @@
                             }
                         });
 
-                        editor.ui.registry.addButton('formatTitle3', {
+                        editor.ui.registry.addContextForm('formatTitle3', {
                             icon: 'unselected',
                             tooltip: 'Texte formaté pour les titre 3',
                             onAction: function (_) {
